@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Consider running the command below on the folder containing the files\folders
+# to change every space in a file\folder name to an underscore - will prevent
+# the script from failing on "ambigious redirection"
+# find Password_lists/ -depth -name "* *" -execdir rename 's/ /_/g' "{}" \;
+
 FILES1=[FULL PATH TO TXT FILES]
 # with an asterisk in the end
 
