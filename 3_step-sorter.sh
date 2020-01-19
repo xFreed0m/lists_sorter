@@ -89,3 +89,4 @@ done
 
 
 # TODO: might want to remove each file after processed?
+# consider adding some kind of progress bar to see if it hangs?
